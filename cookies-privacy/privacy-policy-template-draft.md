@@ -63,5 +63,5 @@ Neil Muñoz Lago
 ```typescript
 
 > We never sell your personal data. We respect your privacy and comply with international law.
-¿Quieres ahora que prepare también el archivo privacy-policy.es.md o un botón tipo
+
 ```
