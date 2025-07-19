@@ -34,6 +34,10 @@ During 2013–2014, we began abstracting layers and exposing true RESTful endpoi
 
 ## 🧱 Diagram: From Monolith (2012) to Modular REST (2014)
 
+Due to GitHub Markdown limitations, this diagram is best viewed using an external Mermaid-compatible tool.
+
+👉 [🧠 View this diagram in the Mermaid Live Editor](https://mermaid.live/edit#pako:eNptUM1OwzAM_JXLnW0a7m-5FJXRGY6kmYrRtBt2JUnYjUosTP_3xFmkfRQd29Kx76lZJfGxZgZkUtzTS5Edp1jxiU_M-3AErzS3-WwR4f_HnC2LIYtXPLtv_o_Lkgk-91m6EKdjY_QVXtM1nGVHRU4sCAbIQ55cUiDjFZx1ZKqF_5aGC9CU3I)
+
 ```mermaid
 flowchart LR
 
@@ -53,7 +57,11 @@ flowchart LR
   end
 
   Monolith_2012 --> Modular_REST_2014
+🧩 This diagram reflects the architectural transition I lived at Idealista:
+from tightly coupled logic to reusable internal services, decoupled APIs, and frontend abstraction.
+
 ```
+...
 
 ##### 🧠 What I Contributed
 Designed dynamic filters with decoupled logic
