@@ -48,7 +48,7 @@ graph TD
 
 ```md
 ### 📦 DevContainer Environment Map
-
+```
 ```mermaid
 graph TD
   DevContainer["🐳 DevContainer"]
