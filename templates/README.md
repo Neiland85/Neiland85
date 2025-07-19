@@ -13,7 +13,6 @@ This folder contains boilerplates and architecture templates used across my prof
 > These templates reflect my architectural style: traceable, modular, and readable.
 
 ```mermaid
-graph TD
   A[📦 Microservice Entry]
   A --> B[Interfaces Layer (REST, CLI)]
   B --> C[Application Layer (Use Cases)]
@@ -22,7 +21,6 @@ graph TD
   E --> F[Adapters: PostgreSQL, Kafka, API Clients]
 ```
 ```mermaid
-flowchart TD
   P[💬 Proposed]
   A[✅ Accepted]
   D[🗑 Deprecated]
