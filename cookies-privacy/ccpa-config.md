@@ -19,8 +19,6 @@ The California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CP
 ```
 2. Use a Persistent Consent Flag
 ```js
-Copiar
-Editar
 window.ccpaUser = {
   id: "anonymous-123",
   doNotSell: true,
@@ -29,16 +27,12 @@ window.ccpaUser = {
 Disable scripts accordingly:
 ```
 ```js
-Copiar
-Editar
 if (window.ccpaUser?.doNotSell) {
   // Prevent marketing/ad scripts from loading
 }
 ```
 3. API Endpoints (Suggested)
 ```http
-Copiar
-Editar
 GET    /api/privacy/user/:id         → Retrieve stored user data
 DELETE /api/privacy/delete/:id       → Erase all user data (upon request)
 ```
