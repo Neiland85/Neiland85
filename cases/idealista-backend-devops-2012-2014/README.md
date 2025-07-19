@@ -25,32 +25,9 @@ The focus was always: **efficiency, clarity, reliability**.
 
 ---
 
-## 🧱 Sample UI+Logic Pattern (2013 Style)
+### 🧱 Sample UI+Logic Pattern (2013 Style)
 
 Even though I was on backend, we had to understand and sometimes contribute to frontend architecture. Here’s how we structured interactive components:
-
-```html
-<!-- Mustache or JSP -->
-<div class="b-result js-toggle-favorite" data-id="{{property_id}}">
-  {{title}}
-  <span class="b-fav-icon {{#is_favorite}}active{{/is_favorite}}"></span>
-</div>
-js
-
-<!-- jQuery logic -->
-$('.js-toggle-favorite').on('click', function () {
-  const id = $(this).data('id');
-  $.post('/api/favorites/toggle', { id });
-});
-
-<!-- css -->
-.b-fav-icon {
-  background: url('/img/heart-empty.png');
-}
-.b-fav-icon.active {
-  background: url('/img/heart-filled.png');
-}
-```
 
 🧠 Lessons Learned
 Component logic was split across backend + frontend + CSS
@@ -78,7 +55,7 @@ Think like an architect, even before being called one.
 
 Idealista taught me that designing a solution was more than writing code — it was about understanding scope, dependencies, execution, and cost of change.
 
-### 🔁 Then vs Now (2025)
+#### 🔁 Then vs Now (2025)
 
 | **Aspect**         | **2013**                                              | **2025**                                                 |
 |--------------------|-------------------------------------------------------|----------------------------------------------------------|
@@ -89,7 +66,7 @@ Idealista taught me that designing a solution was more than writing code — it 
 | **Tooling**        | Bash scripts, Ant, sometimes Makefiles                | TurboRepo, Nx, Vite, GitHub Actions                      |
 | **Deployment**     | Internal tools + manual validation via VPN            | CI/CD pipelines + Preview Environments + Canary releases |
 
-📌 Why this matters
+##### 📌 Why this matters
 Even though the tech was primitive by today’s standards, the thinking was already architectural.
 
 I learned modularity before modules
@@ -99,19 +76,6 @@ I practiced separation of concerns without a build system
 I developed code for users at massive scale with real-world constraints
 
 This experience grounded my evolution into modern backend & system architecture.
-
-// jQuery logic
-$('.js-toggle-favorite').on('click', function () {
-  const id = $(this).data('id');
-  $.post('/api/favorites/toggle', { id });
-});
-
-.b-fav-icon {
-  background: url('/img/heart-empty.png');
-}
-.b-fav-icon.active {
-  background: url('/img/heart-filled.png');
-}
 
 ```html
 <!-- Mustache or JSP -->
