@@ -36,23 +36,20 @@ Even though I was on backend, we had to understand and sometimes contribute to f
   <span class="b-fav-icon {{#is_favorite}}active{{/is_favorite}}"></span>
 </div>
 js
-Copiar
-Editar
+```
 // jQuery logic
 $('.js-toggle-favorite').on('click', function () {
   const id = $(this).data('id');
   $.post('/api/favorites/toggle', { id });
 });
-css
-Copiar
-Editar
+
+// css
 .b-fav-icon {
   background: url('/img/heart-empty.png');
 }
 .b-fav-icon.active {
   background: url('/img/heart-filled.png');
 }
-```
 
 🧠 Lessons Learned
 Component logic was split across backend + frontend + CSS
