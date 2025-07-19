@@ -52,3 +52,29 @@ Store gdprConsent as a signed JSON in localStorage, with timestamp and language
 ```html
 <a href="/do-not-sell" class="privacy-link">Do Not Sell My Personal Information</a>
 ```
+
+---
+
+## ✅ `consent-banner.js`
+
+```js
+// 🍪 Simple GDPR + CCPA Consent Banner
+(function () {
+  const banner = document.createElement('div');
+  banner.id = 'consent-banner';
+  banner.innerHTML = `
+    <div style="position:fixed;bottom:0;width:100%;background:#000;color:#fff;padding:1em;text-align:center;z-index:9999">
+      We use cookies to improve your experience. 
+      <button id="accept-cookies">Accept</button>
+      <a href="/privacy">Learn more</a>
+    </div>
+  `;
+  document.body.appendChild(banner);
+
+  document.getElementById('accept-cookies').onclick = function () {
+    localStorage.setItem('gdprConsent', JSON.stringify({ analytics: true, marketing: false }));
+    banner.remove();
+    location.reload();
+  };
+})();
+```
