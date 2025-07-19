@@ -15,7 +15,7 @@ This policy explains how we collect, use, and store your data. It applies to use
 
 - Access or delete your data (GDPR/CCPA)
 - Opt out of tracking or data sale
-- Contact us at: privacy@yourcompany.com
+- Contact us at: info@tributariapp.es
 
 ## Technologies Used
 
