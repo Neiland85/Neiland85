@@ -34,25 +34,29 @@ During 2013–2014, we began abstracting layers and exposing true RESTful endpoi
 
 #### 📊 Diagram: From Monolith to Modular REST
 
-```mermaid
+<details> <summary>Click to expand Mermaid diagram</summary>
+mermaid
+Copiar
+Editar
 flowchart LR
-  subgraph 2012 [🧱 Monolith - 2012]
+
+  subgraph Monolith_2012
     UI1[HTML (JSP)]
     Logic1[Java Business Logic]
     DB1[(MySQL)]
     UI1 --> Logic1 --> DB1
   end
-```
-```mermaid
-  subgraph 2014 [🧩 Modularized REST - 2014]
+
+  subgraph Modular_REST_2014
     UI2[Frontend: Mustache + jQuery]
     API[REST API (Token Auth)]
     Services[Internal Service Modules]
     DB2[(MySQL)]
     UI2 --> API --> Services --> DB2
   end
-```
-  2012 -->|Gradual refactor| 2014
+
+  Monolith_2012 --> Modular_REST_2014
+</details>
 
 ##### 🧠 What I Contributed
 Designed dynamic filters with decoupled logic
