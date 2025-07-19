@@ -34,6 +34,60 @@ I specialize in designing high-performance architectures from scratch with legal
 
 ---
 
+## 🧠 My Architectural Mindset (Visual)
+
+```mermaid
+graph TD
+  Dev[👨‍💻 Developer]
+  Arch[🧱 Code Architect]
+  Copilot[🤖 Copilot Agent Pro+]
+  GitHub[🌍 GitHub Actions]
+  Cloud[☁️ Kubernetes / ECS]
+  Frontend[💻 React + Tailwind]
+  Backend[🧪 Node.js + Prisma]
+  Database[(🧾 PostgreSQL)]
+  Legal[🔍 Audit & Compliance]
+
+  Dev -->|crafts| Frontend
+  Dev -->|crafts| Backend
+  Arch -->|designs| Frontend
+  Arch -->|designs| Backend
+  Backend --> Database
+  Frontend --> Backend
+  Copilot --> Dev
+  GitHub --> Backend
+  GitHub --> Frontend
+  Backend --> Cloud
+  Legal --> Backend
+```
+```bash
+code-architect-freelance-senior/
+├── README.md                         # Main professional showcase (EN/ES)
+├── LICENSE
+├── .gitignore
+├── stack/
+│   └── stack.md                      # Full description of personal tech stack
+├── philosophy/
+│   └── philosophy.md                 # Philosophy and cultural approach
+├── prompts-copilot/
+│   ├── copilot-k8s.md
+│   ├── copilot-monorepo.md
+│   └── ...
+├── settings/
+│   ├── settings.json
+│   ├── .devcontainer.json
+│   └── ...
+├── cases/
+│   └── idealista-backend-devops-2012-2014/
+│       ├── README.md
+│       ├── button-then-vs-now.md
+│       └── architecture-idealista-transition.md
+└── templates/
+    ├── README-template.md
+    ├── ADR-template.md
+    └── ...
+```
+
 ## 🧬 Philosophy
 
 > **Asian Methodology – German Execution – Spanish Ingenuity**  
