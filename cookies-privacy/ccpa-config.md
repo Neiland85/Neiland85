@@ -16,9 +16,9 @@ The California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CP
 <a href="/do-not-sell" class="privacy-link">
   Do Not Sell My Personal Information
 </a>
-
+```
 2. Use a Persistent Consent Flag
-js
+```js
 Copiar
 Editar
 window.ccpaUser = {
@@ -27,20 +27,21 @@ window.ccpaUser = {
   updatedAt: new Date().toISOString()
 };
 Disable scripts accordingly:
-
-js
+```
+```js
 Copiar
 Editar
 if (window.ccpaUser?.doNotSell) {
   // Prevent marketing/ad scripts from loading
 }
-
+```
 3. API Endpoints (Suggested)
-http
+```http
 Copiar
 Editar
 GET    /api/privacy/user/:id         → Retrieve stored user data
 DELETE /api/privacy/delete/:id       → Erase all user data (upon request)
+```
 
 4. Provide a Confirmation + Opt-out Page
 Your /do-not-sell page should:
@@ -50,4 +51,4 @@ Confirm user intent to opt out
 Show which cookies/data are being disabled
 
 Link to the full privacy policy
-```
+
