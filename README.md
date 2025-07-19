@@ -5,9 +5,12 @@
   🧠 Code Architect · 🔁 Automation Strategist · 🤖 GitHub Copilot Agent Expert · ☁️ Cloud-Native Builder
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=800&color=00F7FF&width=1000&center=true&vCenter=true&lines=Hi!+I'm+Neil+—+fullstack+architect+%26+solo+engineer.;15%2B+years+in+scalable+systems%2C+automation%2C+DevOps%2C+AI.;I+build+products+with+legal+traceability+%26+Copilot-powered+automation." alt="Typing intro by Neil" />
-</p>
+---
+
+## 👋 About Me
+
+Hi! I'm Neil — a fullstack architect and solo engineer with 15+ years of experience in scalable systems, automation, DevOps, and ethical AI workflows.  
+I build high-performance products from scratch with legal traceability, AI copilots, and open technical standards.
 
 ---
 
