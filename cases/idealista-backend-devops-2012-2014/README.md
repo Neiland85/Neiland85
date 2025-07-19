@@ -37,13 +37,13 @@ Even though I was on backend, we had to understand and sometimes contribute to f
 </div>
 js
 
-// jQuery logic
+<!-- jQuery logic -->
 $('.js-toggle-favorite').on('click', function () {
   const id = $(this).data('id');
   $.post('/api/favorites/toggle', { id });
 });
 
-// css
+<!-- css -->
 .b-fav-icon {
   background: url('/img/heart-empty.png');
 }
