@@ -1,4 +1,6 @@
-<h1 align="center">🧠 Neil Muñoz Lago – Code Architect · Freelance Senior Developer</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=600&color=00F7FF&center=true&vCenter=true&width=950&lines=🧠+Neil+Muñoz+Lago+–+Code+Architect+·+Freelance+Senior+Developer" alt="Typing title by Neil" />
+</p>
 
 <p align="center">
   <strong>Neil Muñoz Lago (@Neiland85)</strong><br>
