@@ -42,26 +42,22 @@ Due to GitHub Markdown limitations, this diagram is best viewed using an externa
 flowchart LR
 
   subgraph Monolith_2012
-    UI1[HTML (JSP)]
+    UI1[HTML + JSP]
     Logic1[Java Business Logic]
-    DB1[(MySQL)]
+    DB1[MySQL]
     UI1 --> Logic1 --> DB1
   end
 
   subgraph Modular_REST_2014
-    UI2[Frontend: Mustache + jQuery]
-    API[REST API (Token Auth)]
-    Services[Internal Service Modules]
-    DB2[(MySQL)]
+    UI2[Mustache + jQuery]
+    API[REST API]
+    Services[Internal Modules]
+    DB2[MySQL]
     UI2 --> API --> Services --> DB2
   end
 
   Monolith_2012 --> Modular_REST_2014
-🧩 This diagram reflects the architectural transition I lived at Idealista:
-from tightly coupled logic to reusable internal services, decoupled APIs, and frontend abstraction.
-
 ```
-...
 
 ##### 🧠 What I Contributed
 Designed dynamic filters with decoupled logic
