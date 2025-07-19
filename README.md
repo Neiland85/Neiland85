@@ -113,13 +113,13 @@ My work style blends:
 
 A deep-dive into the architecture, interface logic, and backend evolution during a critical phase in one of Europe’s most important real estate platforms.
 
-- 🏛️ [Experience Summary](https://github.com/Neiland85/code-architect-freelance-senior/blob/main/cases/idealista-ui-2012-2014/README.md)  
+- 🏛️ [Experience Summary](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/README.md)  
   Overview of my role in backend + interface architecture, business logic, and REST transition.
 
-- 🔘 [UI Pattern – Favorite Button: Then vs Now](https://github.com/Neiland85/code-architect-freelance-senior/blob/main/cases/idealista-ui-2012-2014/button-then-vs-now.md)  
+- 🔘 [UI Pattern – Favorite Button: Then vs Now](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/button-then-vs-now.md)  
   Side-by-side comparison of a real 2013 interface vs a 2025 React + Tailwind version.
 
-- 🧱 [Architecture – From Monolith to Modular REST](https://github.com/Neiland85/code-architect-freelance-senior/blob/main/cases/idealista-ui-2012-2014/architecture-idealista-transition.md)  
+- 🧱 [Architecture – From Monolith to Modular REST](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/architecture-idealista-transition.md)  
   Mermaid diagram and explanation of the architectural shift I lived and helped implement.
 
 > 🧠 This case shows how I moved from executing logic to **designing systems**, and why that matters for any architect today.
@@ -177,9 +177,11 @@ Fusiono:
 
 Una inmersión real en la lógica de interfaces, evolución arquitectónica y trabajo backend durante una fase crítica de transformación en una de las plataformas inmobiliarias más influyentes de Europa.
 
-- 🏛️ [Resumen de experiencia](./cases/idealista-ui-2012-2014/README.md)  
-- 🔘 [Comparativa UI – Botón de favoritos](./cases/idealista-ui-2012-2014/button-then-vs-now.md)  
-- 🧱 [Evolución arquitectónica: de monolito a REST modular](./cases/idealista-ui-2012-2014/architecture-idealista-transition.md)
+- 🏛️ [Resumen de experiencia](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/README.md)  
+- 🔘 [Comparativa UI – Botón de favoritos](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/button-then-vs-now.md)  
+- 🧱 [Evolución arquitectónica: de monolito a REST modular](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/architecture-idealista-transition.md)
+
+> 🧠 Este caso muestra cómo pasé de ejecutar lógica a **diseñar sistemas**, y por qué eso marca la diferencia en cualquier arquitecto moderno.
 
 ---
 
