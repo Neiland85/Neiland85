@@ -37,9 +37,11 @@ AJAX success/error was manually handled
 
 Duplication of logic in views, backend and jQuery
 
-🚀 NOW: React + Tailwind + Zustand (2025)
-Component (FavoriteButton.tsx):
+### 🚀 NOW: React + Tailwind + Zustand (2025)
 
+#### Component (`FavoriteButton.tsx`)
+
+```tsx
 import { useState } from 'react';
 import { toggleFavorite } from '@/lib/api';
 
@@ -66,14 +68,16 @@ export function FavoriteButton({ propertyId, initialState }: {
     </button>
   );
 }
+```
 
 API Helper (lib/api.ts):
-
+```ts
 export async function toggleFavorite(id: string) {
   const res = await fetch(`/api/favorites/${id}`, { method: 'POST' });
   if (!res.ok) throw new Error('Failed to toggle');
   return res.json();
 }
+```
 
 ### ✅ Advantages (2025)
 
