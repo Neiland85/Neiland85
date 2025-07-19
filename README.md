@@ -55,6 +55,22 @@ My work style blends:
 
 ---
 
+📂 Featured Case: Idealista (2012–2014)
+A deep-dive into the architecture, interface logic, and backend evolution during a critical phase in one of Europe’s most important real estate platforms.
+
+🏛️ Experience Summary
+Overview of my role in backend + interface architecture, business logic, and REST transition.
+
+🔘 UI Pattern – Favorite Button: Then vs Now
+Side-by-side comparison of a real 2013 interface vs a 2025 React+Tailwind version.
+
+🧱 Architecture – From Monolith to Modular REST
+Mermaid diagram and explanation of the architectural shift I lived and helped implement.
+
+🧠 This case shows how I moved from executing logic to designing systems, and why that matters for any architect today.
+
+---
+
 ## 📞 Contact
 
 - 📧 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
@@ -99,6 +115,16 @@ Fusiono:
 - 🧠 [Prompts Copilot para Kubernetes y VS Code](https://gist.github.com/Neiland85/2bd47ad2e4c962a0e61a4cb6e1073ed5)  
 - ⚙️ [VS Code Settings para Monorepo y Copilot Agent](https://gist.github.com/Neiland85/8c87abae66c70fe43d08bf3006bdd541)  
 - 🔁 [Handler legal Zapier → Slack](https://gist.github.com/Neiland85/ea03236ecdfc5636e9706421b85e224b)
+
+---
+
+### 📂 Caso destacado: **Idealista (2012–2014)**
+
+Una inmersión real en la lógica de interfaces, evolución arquitectónica y trabajo backend durante una fase crítica de transformación en una de las plataformas inmobiliarias más influyentes de Europa.
+
+- 🏛️ [Resumen de experiencia](./cases/idealista-ui-2012-2014/README.md)  
+- 🔘 [Comparativa UI – Botón de favoritos](./cases/idealista-ui-2012-2014/button-then-vs-now.md)  
+- 🧱 [Evolución arquitectónica: de monolito a REST modular](./cases/idealista-ui-2012-2014/architecture-idealista-transition.md)
 
 ---
 
