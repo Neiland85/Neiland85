@@ -34,9 +34,6 @@ During 2013–2014, we began abstracting layers and exposing true RESTful endpoi
 
 ## 🧱 Diagram: From Monolith (2012) to Modular REST (2014)
 
-<details>
-<summary>Click to expand Mermaid diagram</summary>
-
 ```mermaid
 flowchart LR
 
@@ -56,7 +53,6 @@ flowchart LR
   end
 
   Monolith_2012 --> Modular_REST_2014
-</details> 
 ```
 
 ##### 🧠 What I Contributed
