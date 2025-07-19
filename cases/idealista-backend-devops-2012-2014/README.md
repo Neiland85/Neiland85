@@ -1,7 +1,7 @@
 # 🏛️ Case Study: Idealista UI & Backend Evolution (2012–2014)
 
 > Role: Backend Developer with UI responsibilities  
-> Company: Idealista (Barcelona, Spain)  
+> Company: Idealista (Madrid, Spain)  
 > Period: Oct 2012 – Jul 2014  
 > Key Tech: Java · JSP · jQuery · Mustache.js · HTML5 · CSS3 · RESTful APIs · Token Auth · JSON  
 > Transition Era: From monolith to modular thinking
@@ -28,6 +28,31 @@ The focus was always: **efficiency, clarity, reliability**.
 ## 🧱 Sample UI+Logic Pattern (2013 Style)
 
 Even though I was on backend, we had to understand and sometimes contribute to frontend architecture. Here’s how we structured interactive components:
+
+```html
+<!-- Mustache or JSP -->
+<div class="b-result js-toggle-favorite" data-id="{{property_id}}">
+  {{title}}
+  <span class="b-fav-icon {{#is_favorite}}active{{/is_favorite}}"></span>
+</div>
+js
+Copiar
+Editar
+// jQuery logic
+$('.js-toggle-favorite').on('click', function () {
+  const id = $(this).data('id');
+  $.post('/api/favorites/toggle', { id });
+});
+css
+Copiar
+Editar
+.b-fav-icon {
+  background: url('/img/heart-empty.png');
+}
+.b-fav-icon.active {
+  background: url('/img/heart-filled.png');
+}
+```
 
 🧠 Lessons Learned
 Component logic was split across backend + frontend + CSS
@@ -96,3 +121,4 @@ $('.js-toggle-favorite').on('click', function () {
   {{title}}
   <span class="b-fav-icon {{#is_favorite}}active{{/is_favorite}}"></span>
 </div>
+```
