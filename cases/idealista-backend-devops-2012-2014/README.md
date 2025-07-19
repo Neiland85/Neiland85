@@ -36,7 +36,7 @@ Even though I was on backend, we had to understand and sometimes contribute to f
   <span class="b-fav-icon {{#is_favorite}}active{{/is_favorite}}"></span>
 </div>
 js
-
+```
 <!-- jQuery logic -->
 $('.js-toggle-favorite').on('click', function () {
   const id = $(this).data('id');
@@ -50,7 +50,6 @@ $('.js-toggle-favorite').on('click', function () {
 .b-fav-icon.active {
   background: url('/img/heart-filled.png');
 }
-```
 
 🧠 Lessons Learned
 Component logic was split across backend + frontend + CSS
