@@ -1,11 +1,12 @@
 <h1 align="center">🧠 Neil Muñoz Lago – Code Architect · Freelance Senior Developer</h1>
+
 <p align="center">
   <strong>Neil Muñoz Lago (@Neiland85)</strong><br>
   🧠 Code Architect · 🔁 Automation Strategist · 🤖 GitHub Copilot Agent Expert · ☁️ Cloud-Native Builder
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=1000&lines=Hi!+I'm+Neil+—+a+fullstack+architect+and+solo+engineer;15%2B+years+in+scalable+systems%2C+automation%2C+DevOps%2C+AI.;I+build+products+with+legal+traceability+%26+Copilot-powered+automation." alt="Typing introduction by Neil" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=800&color=00F7FF&width=1000&center=true&vCenter=true&lines=Hi!+I'm+Neil+—+fullstack+architect+%26+solo+engineer.;15%2B+years+in+scalable+systems%2C+automation%2C+DevOps%2C+AI.;I+build+products+with+legal+traceability+%26+Copilot-powered+automation." alt="Typing intro by Neil" />
 </p>
 
 ---
