@@ -4,17 +4,19 @@ This file compares how a common UI element — a "favorite button" — was imple
 
 ---
 
-## ⏳ THEN: jQuery + CSS + JSP (2013)
+### ⏳ THEN: jQuery + CSS + JSP (2013)
 
-JavaScript (jQuery):
+#### JavaScript (jQuery)
 
+```js
 $('.js-toggle-favorite').on('click', function () {
   const id = $(this).data('id');
   $.post('/api/favorites/toggle', { id });
 });
-
-CSS:
-
+CSS
+css
+Copiar
+Editar
 .b-fav-icon {
   background-image: url('/img/heart-empty.png');
   width: 24px;
@@ -24,6 +26,7 @@ CSS:
 .b-fav-icon.active {
   background-image: url('/img/heart-filled.png');
 }
+```
 
 ⚙️ Issues (2013)
 UI logic, styles and behavior were scattered
@@ -97,3 +100,5 @@ What didn’t change: the mindset behind clean separation of concerns and resili
 <div class="b-result js-toggle-favorite" data-id="{{property_id}}">
   <span class="b-fav-icon {{#is_favorite}}active{{/is_favorite}}"></span>
 </div>
+```
+
