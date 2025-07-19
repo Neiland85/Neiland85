@@ -1,0 +1,59 @@
+{
+  // === Editor fundamentals ===
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.autoSave": "onWindowChange",
+
+  // === Copilot Pro+ & Agent ===
+  "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "github.copilot.agent.enable": true,
+  "github.copilot.agent.experimentalFeatures": true,
+  "github.copilot.agent.autoReveal": true,
+
+  // === Terminal & shell ===
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 13,
+
+  // === TypeScript & JS ===
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // === Formatters & Linting ===
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+
+  // === Tailwind support ===
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "typescript": "typescriptreact"
+  },
+
+  // === Workspace hygiene ===
+  "files.exclude": {
+    "**/.turbo": true,
+    "**/.next": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+
+  // === AI & Developer Experience ===
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.snippetSuggestions": "top",
+  "workbench.experimental.chat.enabled": true,
+  "workbench.chat.provider": "github",
+  "github.copilot.agent.experimentalChatActions": true
+}
