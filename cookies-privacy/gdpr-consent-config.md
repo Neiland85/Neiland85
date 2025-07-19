@@ -51,7 +51,4 @@ Store gdprConsent as a signed JSON in localStorage, with timestamp and language
 
 ```html
 <a href="/do-not-sell" class="privacy-link">Do Not Sell My Personal Information</a>
-php
-Copiar
-Editar
 ```
