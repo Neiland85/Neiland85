@@ -69,10 +69,6 @@ code-architect-freelance-senior/
 │   └── stack.md                      # Full description of personal tech stack
 ├── philosophy/
 │   └── philosophy.md                 # Philosophy and cultural approach
-├── prompts-copilot/
-│   ├── copilot-k8s.md
-│   ├── copilot-monorepo.md
-│   └── ...
 ├── settings/
 │   ├── settings.json
 │   ├── .devcontainer.json
