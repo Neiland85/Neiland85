@@ -84,3 +84,10 @@ This experience grounded my evolution into modern backend & system architecture.
   <span class="b-fav-icon {{#is_favorite}}active{{/is_favorite}}"></span>
 </div>
 ```
+
+🧬 Reflections
+This was the project that made me shift from being a coder to a solution designer.
+Not just writing logic, but planning, adapting, and building with awareness of the full stack — and the business behind it.
+
+Today I write Kubernetes manifests and Copilot Agent prompts.
+But the clarity I gained at Idealista still defines my decisions.
