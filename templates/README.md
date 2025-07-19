@@ -19,12 +19,13 @@ This folder contains boilerplates and architecture templates used across my prof
 ```mermaid
 graph TD
   A[📦 Microservice Entry]
-  A --> B[Interfaces Layer (REST, CLI)]
-  B --> C[Application Layer (Use Cases)]
-  C --> D[Domain Layer (Entities, VO, Services)]
-  C --> E[Ports (DB, Queue, External APIs)]
+  A --> B[Interfaces Layer: REST / CLI]
+  B --> C[Application Layer: Use Cases]
+  C --> D[Domain Layer: Entities, VO, Services]
+  C --> E[Ports: DB, Queue, External APIs]
   E --> F[Adapters: PostgreSQL, Kafka, API Clients]
 ```
+
 ```mermaid
 flowchart TD
   P[💬 Proposed]
