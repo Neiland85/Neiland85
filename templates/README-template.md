@@ -90,3 +90,44 @@ What choice was made? Include relevant trade-offs and rejected alternatives if n
 
 - Link to related ADRs, issues, RFCs, discussions
 ```
+
+# 🧰 Templates for Projects
+
+This folder contains boilerplates and architecture templates used across my professional repositories and client projects.
+
+## 📄 Files
+
+| File                | Purpose                                                |
+|---------------------|--------------------------------------------------------|
+| `README-template.md` | Standard service-level readme (full structure)         |
+| `ADR-template.md`    | Architecture Decision Record template (Michael Nygard-style) |
+
+> These templates reflect my architectural style: traceable, modular, and readable.
+
+---
+
+#### 🧩 Microservice Structure (visual)
+
+> A typical hexagonal microservice with clear layering and adapter boundaries.
+
+```mermaid
+flowchart TD
+  A[Microservice Entry]
+  A --> B[Interfaces Layer: REST and CLI]
+  B --> C[Application Layer: Use Cases]
+  C --> D[Domain Layer: Entities and Value Objects]
+  C --> E[Ports: DB, Queue, External APIs]
+  E --> F[Adapters: PostgreSQL, Kafka, API Clients]
+```
+```mermaid
+flowchart TD
+  Proposed[💬 Proposed]
+  Accepted[✅ Accepted]
+  Deprecated[🗑 Deprecated]
+  Superseded[🔁 Superseded]
+
+  Proposed --> Accepted
+  Accepted --> Deprecated
+  Accepted --> Superseded
+  Superseded --> Accepted
+```
