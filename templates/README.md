@@ -26,6 +26,7 @@ graph TD
   E --> F[Adapters: PostgreSQL, Kafka, API Clients]
 ```
 
+🧠 ADR Lifecycle (Mermaid)
 ```mermaid
 flowchart TD
   P[💬 Proposed]
