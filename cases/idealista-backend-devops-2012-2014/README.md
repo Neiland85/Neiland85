@@ -1,7 +1,7 @@
 # 🏛️ Case Study: Idealista UI & Backend Evolution (2012–2014)
 
 > Role: Backend Developer with UI responsibilities  
-> Company: Idealista (Madrid, Spain)  
+> Company: Idealista (Barcelona, Spain)  
 > Period: Oct 2012 – Jul 2014  
 > Key Tech: Java · JSP · jQuery · Mustache.js · HTML5 · CSS3 · RESTful APIs · Token Auth · JSON  
 > Transition Era: From monolith to modular thinking
