@@ -13,10 +13,8 @@ $('.js-toggle-favorite').on('click', function () {
   const id = $(this).data('id');
   $.post('/api/favorites/toggle', { id });
 });
-CSS
-css
-Copiar
-Editar
+```
+```css
 .b-fav-icon {
   background-image: url('/img/heart-empty.png');
   width: 24px;
