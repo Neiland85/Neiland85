@@ -12,7 +12,12 @@ This folder contains boilerplates and architecture templates used across my prof
 
 > These templates reflect my architectural style: traceable, modular, and readable.
 
+---
+
+## 🧩 Microservice Structure (Mermaid)
+
 ```mermaid
+graph TD
   A[📦 Microservice Entry]
   A --> B[Interfaces Layer (REST, CLI)]
   B --> C[Application Layer (Use Cases)]
@@ -21,6 +26,7 @@ This folder contains boilerplates and architecture templates used across my prof
   E --> F[Adapters: PostgreSQL, Kafka, API Clients]
 ```
 ```mermaid
+flowchart TD
   P[💬 Proposed]
   A[✅ Accepted]
   D[🗑 Deprecated]
