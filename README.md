@@ -1,75 +1,110 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=600&color=00F7FF&center=true&vCenter=true&width=950&lines=🧠+Neil+Muñoz+Lago+–+Code+Architect+·+Freelance+Senior+Developer" alt="Typing title by Neil" />
-</p>
+<h1 align="center">🧠 Neil Munoz Lago – Code Architect · Freelance Senior Developer</h1>
 
 <p align="center">
   <strong>Neil Muñoz Lago (@Neiland85)</strong><br>
   🧠 Code Architect · 🔁 Automation Strategist · 🤖 GitHub Copilot Agent Expert · ☁️ Cloud-Native Builder
 </p>
 
----
-
-## 👋 About Me
-
-Hi! I'm Neil — a fullstack architect and solo engineer with 15+ years of experience in scalable systems, automation, DevOps, and ethical AI workflows.  
-I build high-performance products from scratch with legal traceability, AI copilots, and open technical standards.
-
----
-
-## 👨‍💻 I specialize in:
-
-- 🧱 **Monorepo architecture** for SaaS and microservices  
-- 🤖 **GitHub Copilot Agent + Pro** (prompt engineering for real code workflows)  
-- 🚢 **CI/CD pipelines**, **Kubernetes**, observability, and infrastructure as code  
-- 🔍 **Audit-ready automation** (Zapier, Hubspot, Slack, legal integration)  
-- ⚙️ **Fast, documented MVPs** using Node.js, TypeScript, React, and Python
-
----
-
-## 🧬 Philosophy
-
-> 🧘 **Asian Methodology** – 🛠 **German Execution** – 🎭 **Spanish Ingenuity**  
-> _(Metodología asiática · Ejecución alemana · Picardía española)_
-
-My engineering philosophy blends:
-
-- 📐 *Asian discipline*: strategic patience, minimalist efficiency, long-term systems thinking  
-- 🧱 *German precision*: architectural rigor, reliability, reproducibility, quality  
-- 🪄 *Spanish cleverness*: adaptive creativity, intuitive decisions, lateral problem-solving
-
-This cultural hybrid defines how I lead projects, write code, solve edge cases, and scale architecture under real-world constraints.
-
----
-
-## 📂 Highlights
-
-Some of my most used and shared components:
-
-- 🧠 [Copilot Prompts for Kubernetes & VS Code](https://gist.github.com/Neiland85/2bd47ad2e4c962a0e61a4cb6e1073ed5)  
-  GitHub Copilot Agent prompts for real-world Kubernetes deployments, manifest refactoring, DevContainer setups, and CI/CD workflows.
-
-- ⚙️ [VS Code Settings for Monorepos & Copilot Agent](https://gist.github.com/Neiland85/8c87abae66c70fe43d08bf3006bdd541)  
-  A full `settings.json` optimized for monorepos, Copilot Pro+, TypeScript, Prisma, Tailwind, linting, testing, and live debugging.
-
-- 🔁 [Zapier → Hubspot → Slack Webhook Handler (Auditable)](https://gist.github.com/Neiland85/ea03236ecdfc5636e9706421b85e224b)  
-  Node.js backend bridge used in production. Integrates marketing ops with Slack, legally auditable and DevOps-ready.
-
----
-
-## 📞 Contact
-
-- 🔗 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
-- 📞 WhatsApp / Phone: **+34 613 722 441**  
-- 🧪 Gists: [gist.github.com/Neiland85](https://gist.github.com/Neiland85)  
-- 📦 Project repo: [kopstadium-monorepo-official](https://github.com/Neiland85/kopstadium-monorepo-official)
-
----
-
 <p align="center">
-  <img src="https://img.shields.io/badge/GitHub_Copilot-Pro+-blue?logo=github" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-Pro%2B-blue?logo=github" />
   <img src="https://img.shields.io/badge/Node.js-18.x-green?logo=node.js" />
   <img src="https://img.shields.io/badge/Kubernetes-1.27-blue?logo=kubernetes" />
   <img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript" />
   <img src="https://img.shields.io/badge/DevOps-Automation-orange?logo=githubactions" />
   <img src="https://img.shields.io/badge/Monorepo-Enabled-success" />
 </p>
+
+---
+
+## 🇬🇧 About Me (English)
+
+Hi! I'm Neiland — a fullstack architect and solo engineer with 15+ years of experience in scalable systems, DevOps automation, and AI-powered development.
+
+I specialize in designing high-performance architectures from scratch with legal traceability, GitHub Copilot Pro+ workflows, and modern SaaS practices.
+
+---
+
+## 👨‍💻 I specialize in:
+
+- 🧱 **Monorepo architecture** for SaaS and microservices
+- 🤖 **GitHub Copilot Agent + Pro** for real-world prompt engineering
+- 🚢 **CI/CD pipelines**, **Kubernetes**, observability, and infrastructure as code
+- 🔍 **Audit-ready automation** with Zapier, Hubspot, Slack and backend bridges
+- ⚙️ **Rapid MVPs** using Node.js, TypeScript, React, Prisma, and Python
+
+---
+
+## 🧬 Philosophy
+
+> **Asian Methodology – German Execution – Spanish Ingenuity**  
+> _(Metodología asiática · Ejecución alemana · Picardía española)_
+
+My work style blends:
+
+- 🧘 *Asian discipline*: precision, long-term thinking, clean process  
+- 🛠 *German rigor*: structured systems, reproducibility, reliability  
+- 🎭 *Spanish cleverness*: adaptive thinking, bold pragmatism, creative fire
+
+---
+
+## 📂 Featured Projects & Gists
+
+- 🧠 [Copilot Prompts for Kubernetes & VS Code](https://gist.github.com/Neiland85/2bd47ad2e4c962a0e61a4cb6e1073ed5)  
+- ⚙️ [My VS Code Settings for Monorepos & Copilot](https://gist.github.com/Neiland85/8c87abae66c70fe43d08bf3006bdd541)  
+- 🔁 [Auditable Webhook Bridge (Zapier → Slack)](https://gist.github.com/Neiland85/ea03236ecdfc5636e9706421b85e224b)
+
+---
+
+## 📞 Contact
+
+- 📧 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
+- 📱 WhatsApp / Phone: **+34 613 722 441**  
+- 🧪 Gists: [gist.github.com/Neiland85](https://gist.github.com/Neiland85)  
+- 📦 Project repo: [kopstadium-monorepo-official](https://github.com/Neiland85/kopstadium-monorepo-official)
+
+---
+
+## 🇪🇸 Sobre Mí (Español)
+
+¡Hola! Soy Neiland, arquitecto de software y desarrollador senior con más de 15 años de experiencia en sistemas escalables, automatización DevOps y flujos de trabajo asistidos por IA.
+
+Diseño arquitecturas desde cero con trazabilidad legal, principios de excelencia técnica y mentalidad open source.
+
+---
+
+## 👨‍💻 Especialidades:
+
+- 🧱 Arquitectura monorepo para SaaS y microservicios
+- 🤖 Ingeniería de prompts con GitHub Copilot Pro+ en proyectos reales
+- 🚢 Pipelines CI/CD, Kubernetes, observabilidad, infra como código
+- 🔍 Automatización trazable legal (Slack, Hubspot, Zapier, backends propios)
+- ⚙️ MVPs documentados con Node.js, React, Prisma, TypeScript y Python
+
+---
+
+## 🧬 Filosofía de Trabajo
+
+> **Metodología asiática · Ejecución alemana · Picardía española**
+
+Fusiono:
+
+- 🧘 Disciplina asiática → precisión, largo plazo, sobriedad técnica  
+- 🛠 Rigor alemán → sistemas estructurados, calidad auditable  
+- 🎭 Picardía española → agilidad creativa, soluciones inteligentes, intuición estratégica
+
+---
+
+## 📂 Casos y Demos
+
+- 🧠 [Prompts Copilot para Kubernetes y VS Code](https://gist.github.com/Neiland85/2bd47ad2e4c962a0e61a4cb6e1073ed5)  
+- ⚙️ [VS Code Settings para Monorepo y Copilot Agent](https://gist.github.com/Neiland85/8c87abae66c70fe43d08bf3006bdd541)  
+- 🔁 [Handler legal Zapier → Slack](https://gist.github.com/Neiland85/ea03236ecdfc5636e9706421b85e224b)
+
+---
+
+## 📞 Contacto
+
+- 📧 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
+- 📱 WhatsApp / Teléfono: **+34 613 722 441**  
+- 🧪 Gists: [gist.github.com/Neiland85](https://gist.github.com/Neiland85)  
+- 📦 Proyecto en curso: [kopstadium-monorepo-official](https://github.com/Neiland85/kopstadium-monorepo-official)
