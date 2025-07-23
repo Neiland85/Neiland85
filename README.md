@@ -127,7 +127,8 @@ A deep-dive into the architecture, interface logic, and backend evolution during
 - 📧 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
 - 📱 WhatsApp / Phone: **+34 613 722 441**  
 - 🧪 Gists: [gist.github.com/Neiland85](https://gist.github.com/Neiland85)  
-- 📦 Project repo: [kopstadium-monorepo-official](https://github.com/Neiland85/kopstadium-monorepo-official)
+- 📦 Project repo: [NeuroBank-FastAPI-Toolkit](https://github.com/Neiland85/NeuroBank-FastAPI-Toolkit)
+
 
 ---
 
@@ -186,4 +187,4 @@ Una inmersión real en la lógica de interfaces, evolución arquitectónica y tr
 - 📧 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
 - 📱 WhatsApp / Teléfono: **+34 613 722 441**  
 - 🧪 Gists: [gist.github.com/Neiland85](https://gist.github.com/Neiland85)  
-- 📦 Proyecto en curso: [kopstadium-monorepo-official](https://github.com/Neiland85/kopstadium-monorepo-official)
+- 📦 Proyecto en curso: [NeuroBank-FastAPI-Toolkit](https://github.com/Neiland85/NeuroBank-FastAPI-Toolkit)
