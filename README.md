@@ -29,7 +29,7 @@ I specialize in designing high-performance architectures from scratch with legal
 - 🧱 **Monorepo architecture** for SaaS and microservices
 - 🤖 **GitHub Copilot Agent + Pro** for real-world prompt engineering
 - 🚢 **CI/CD pipelines**, **Kubernetes**, observability, and infrastructure as code
-- 🔍 **Audit-ready automation** with Zapier, Hubspot, Slack and backend bridges
+- 🔍 **Audit-ready automation** with Hubspot, Salesforce, Slack and backend bridges
 - ⚙️ **Rapid MVPs** using Node.js, TypeScript, React, Prisma, and Python
 
 ---
