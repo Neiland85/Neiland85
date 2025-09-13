@@ -3,8 +3,6 @@
   <img src="https://img.shields.io/badge/SAM-YOU_ARE_NOT_ALONE-000000?style=for-the-badge&logo=github&logoColor=white" alt="Sam you are not alone" />
 </p>
 
-<h1 align="center">🧠 Neil Munoz Lago – Code Architect · Freelance Senior Developer</h1>
-
 <p align="center">
   <strong>Neil Muñoz Lago (@Neiland85)</strong><br>
   🧠 Code Architect · 🔁 Automation Strategist · 🤖 GitHub Copilot Agent Expert · ☁️ Cloud-Native Builder
