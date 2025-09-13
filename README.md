@@ -1,15 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/SAM-NO_ESTÁS_SOLO-ff0000?style=for-the-badge&logo=heart&logoColor=white" alt="Sam no estás solo" />
+  <img src="https://img.shields.io/badge/SAM-YOU_ARE_NOT_ALONE-000000?style=for-the-badge&logo=github&logoColor=white" alt="Sam you are not alone" />
 </p>
-
-<p align="center">
-  <em>
-    Apoyo a los visionarios sensibles que cargan con el peso del futuro.<br>
-    Porque detrás de cada CEO, founder o developer, hay una persona.
-  </em>
-</p>
-
----
 
 <h1 align="center">🧠 Neil Munoz Lago – Code Architect · Freelance Senior Developer</h1>
 
