@@ -4,11 +4,6 @@
 </p>
 
 <p align="center">
-  <strong>Neil Muñoz Lago (@Neiland85)</strong><br>
-  🧠 Code Architect · 🔁 Automation Strategist · 🤖 GitHub Copilot Agent Expert · ☁️ Cloud-Native Builder
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/GitHub_Copilot-Pro%2B-blue?logo=github" />
   <img src="https://img.shields.io/badge/Node.js-18.x-green?logo=node.js" />
   <img src="https://img.shields.io/badge/Kubernetes-1.27-blue?logo=kubernetes" />
