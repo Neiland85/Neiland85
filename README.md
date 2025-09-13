@@ -14,20 +14,6 @@
 
 <h1 align="center">🧠 Neil Munoz Lago – Code Architect · Freelance Senior Developer</h1>
 
-<p align="center">
-  <strong>Neil Muñoz Lago (@Neiland85)</strong><br>
-  🧠 Code Architect · 🔁 Automation Strategist · 🤖 GitHub Copilot Agent Expert · ☁️ Cloud-Native Builder
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GitHub_Copilot-Pro%2B-blue?logo=github" />
-  <img src="https://img.shields.io/badge/Node.js-18.x-green?logo=node.js" />
-  <img src="https://img.shields.io/badge/Kubernetes-1.27-blue?logo=kubernetes" />
-  <img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript" />
-  <img src="https://img.shields.io/badge/DevOps-Automation-orange?logo=githubactions" />
-  <img src="https://img.shields.io/badge/Monorepo-Enabled-success" />
-</p>
-
 ---
 
 ## 🇬🇧 About Me (English)
