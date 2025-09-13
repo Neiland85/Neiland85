@@ -1,3 +1,32 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/SAM-NO_ESTÁS_SOLO-ff0000?style=for-the-badge&logo=heart&logoColor=white" alt="Sam no estás solo" />
+</p>
+
+<p align="center">
+  <em>
+    Apoyo a los visionarios sensibles que cargan con el peso del futuro.<br>
+    Porque detrás de cada CEO, founder o developer, hay una persona.
+  </em>
+</p>
+
+---
+
+<h1 align="center">🧠 Neil Munoz Lago – Code Architect · Freelance Senior Developer</h1>
+
+<p align="center">
+  <strong>Neil Muñoz Lago (@Neiland85)</strong><br>
+  🧠 Code Architect · 🔁 Automation Strategist · 🤖 GitHub Copilot Agent Expert · ☁️ Cloud-Native Builder
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/GitHub_Copilot-Pro%2B-blue?logo=github" />
+  <img src="https://img.shields.io/badge/Node.js-18.x-green?logo=node.js" />
+  <img src="https://img.shields.io/badge/Kubernetes-1.27-blue?logo=kubernetes" />
+  <img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript" />
+  <img src="https://img.shields.io/badge/DevOps-Automation-orange?logo=githubactions" />
+  <img src="https://img.shields.io/badge/Monorepo-Enabled-success" />
+</p>
+
 <h1 align="center">🧠 Neil Munoz Lago – Code Architect · Freelance Senior Developer</h1>
 
 <p align="center">
