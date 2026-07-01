@@ -64,7 +64,7 @@ flowchart LR
 | Operational evidence | SHA-256 traces, audit logs, evidence bundles, technical custody, export discipline |
 | AI governance | Prompt/payload inspection, source control, human review, quarantine, traceable decisions |
 | Security & reliability | secrets hygiene, permissions, OWASP thinking, safe deployment, observability, post-incident reconstruction |
-| Technical leadership | reducing noise, making systems legible, separating demo, MVP, pilot and production claims |
+| Technical leadership | reducing noise, making systems legible, separating demo, prototype, pilot and production claims |
 
 ---
 
