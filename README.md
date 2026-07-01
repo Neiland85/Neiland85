@@ -1,185 +1,149 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/GitHub_Copilot-Pro%2B-blue?logo=github" />
-  <img src="https://img.shields.io/badge/Node.js-18.x-green?logo=node.js" />
-  <img src="https://img.shields.io/badge/Kubernetes-1.27-blue?logo=kubernetes" />
-  <img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript" />
-  <img src="https://img.shields.io/badge/DevOps-Automation-orange?logo=githubactions" />
-  <img src="https://img.shields.io/badge/Monorepo-Enabled-success" />
+  <img src="https://img.shields.io/badge/Critical%20Systems-Backend%20Architecture-0B1220?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Operational%20Evidence-Traceability-1F6FEB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI%20Governance-Risk%20%26%20Audit-8250DF?style=for-the-badge" />
 </p>
 
-<h1 align="center">🧠 Neil Munoz Lago – Code Architect · Freelance Senior Developer</h1>
+<h1 align="center">Neil Muñoz Lago</h1>
+
+<h3 align="center">
+Critical Systems & Backend Architect<br/>
+Operational Evidence · Traceability · Security · AI Governance
+</h3>
+
+<p align="center">
+Madrid · Clarity Structures Digital S.L. · <a href="https://app.claritystructures.com/es">app.claritystructures.com/es</a><br/>
+<a href="mailto:admin@claritystructures.com">admin@claritystructures.com</a> · <a href="https://www.linkedin.com/in/neiland85">LinkedIn</a>
+</p>
 
 ---
 
-## 🇬🇧 About Me (English)
+## What I build
 
-Hi! I'm Neiland — a fullstack architect and solo engineer with 15+ years of experience in scalable systems, DevOps automation, and AI-powered development.
+I design backend and platform systems where failure, ambiguity or duplicated events cannot be allowed to silently corrupt the operation.
 
-I specialize in designing high-performance architectures from scratch with legal traceability, GitHub Copilot Pro+ workflows, and modern SaaS practices.
+My work focuses on systems that must be able to answer, after the fact:
 
----
+- what happened;
+- when it happened;
+- which input, event, decision or integration produced the state;
+- which version of the policy, code or process was active;
+- what can be verified without relying on memory or narrative.
 
-## 👨‍💻 I specialize in:
-
-- 🧱 **Monorepo architecture** for SaaS and microservices
-- 🤖 **GitHub Copilot Agent + Pro** for real-world prompt engineering
-- 🚢 **CI/CD pipelines**, **Kubernetes**, observability, and infrastructure as code
-- 🔍 **Audit-ready automation** with Hubspot, Salesforce, Slack and backend bridges
-- ⚙️ **Rapid MVPs** using Node.js, TypeScript, React, Prisma, and Python
+> **A good system does not only run. It can explain what happened when it fails.**
 
 ---
 
-## 🧠 My Architectural Mindset (Visual)
+## Operating map
 
 ```mermaid
-graph TD
-  Dev[👨‍💻 Developer]
-  Arch[🧱 Code Architect]
-  Copilot[🤖 Copilot Agent Pro+]
-  GitHub[🌍 GitHub Actions]
-  Cloud[☁️ Kubernetes / ECS]
-  Frontend[💻 React + Tailwind]
-  Backend[🧪 Node.js + Prisma]
-  Database[(🧾 PostgreSQL)]
-  Legal[🔍 Audit & Compliance]
+flowchart LR
+    A[External input<br/>documents · APIs · events · users · AI prompts] --> B[Context Boundary]
+    B --> C[Backend Contracts<br/>API-first · domain rules · idempotency]
+    C --> D[Transactional Core<br/>PostgreSQL · append-only · state control]
+    D --> E[Operational Evidence<br/>logs · hashes · audit trails · bundles]
+    E --> F[Review Surface<br/>dashboards · exports · decision trace]
 
-  Dev -->|crafts| Frontend
-  Dev -->|crafts| Backend
-  Arch -->|designs| Frontend
-  Arch -->|designs| Backend
-  Backend --> Database
-  Frontend --> Backend
-  Copilot --> Dev
-  GitHub --> Backend
-  GitHub --> Frontend
-  Backend --> Cloud
-  Legal --> Backend
-```
-```bash
-code-architect-freelance-senior/
-├── README.md                         # Main professional showcase (EN/ES)
-├── LICENSE
-├── .gitignore
-├── stack/
-│   └── stack.md                      # Full description of personal tech stack
-├── philosophy/
-│   └── philosophy.md                 # Philosophy and cultural approach
-├── settings/
-│   ├── settings.json
-│   ├── .devcontainer.json
-│   └── ...
-├── cases/
-│   └── idealista-backend-devops-2012-2014/
-│       ├── README.md
-│       ├── button-then-vs-now.md
-│       └── architecture-idealista-transition.md
-└── templates/
-    ├── README-template.md
-    ├── ADR-template.md
-    └── ...
+    G[Security & Governance] -.-> B
+    G -.-> C
+    G -.-> D
+    H[Observability] -.-> D
+    H -.-> E
+    I[AI Governance] -.-> A
+    I -.-> B
 ```
 
-## 🧬 Philosophy
+---
 
-> **Asian Methodology – German Execution – Spanish Ingenuity**  
-> _(Metodología asiática · Ejecución alemana · Picardía española)_
+## Engineering focus
 
-My work style blends:
-
-- 🧘 *Asian discipline*: precision, long-term thinking, clean process  
-- 🛠 *German rigor*: structured systems, reproducibility, reliability  
-- 🎭 *Spanish cleverness*: adaptive thinking, bold pragmatism, creative fire
+| Area | What I care about |
+|---|---|
+| Backend architecture | API-first systems, bounded contexts, transactional boundaries, clean service contracts |
+| Data integrity | PostgreSQL, idempotency, append-only flows, replay safety, rollback behaviour |
+| Operational evidence | SHA-256 traces, audit logs, evidence bundles, technical custody, export discipline |
+| AI governance | Prompt/payload inspection, source control, human review, quarantine, traceable decisions |
+| Security & reliability | secrets hygiene, permissions, OWASP thinking, safe deployment, observability, post-incident reconstruction |
+| Technical leadership | reducing noise, making systems legible, separating demo, MVP, pilot and production claims |
 
 ---
 
-## 📂 Featured Projects & Gists
+## Selected public work
 
-- 🧠 [Copilot Prompts for Kubernetes & VS Code](https://gist.github.com/Neiland85/2bd47ad2e4c962a0e61a4cb6e1073ed5)  
-- ⚙️ [My VS Code Settings for Monorepos & Copilot](https://gist.github.com/Neiland85/8c87abae66c70fe43d08bf3006bdd541)  
-- 🔁 [Auditable Webhook Bridge (Zapier → Slack)](https://gist.github.com/Neiland85/ea03236ecdfc5636e9706421b85e224b)
+| Repository | Signal | What it demonstrates |
+|---|---|---|
+| [`claritystructures-webapp`](https://github.com/Neiland85/claritystructures-webapp) | Operational intake & governance | Privacy-aware intake, context classification, consent, derivation flows and traceability |
+| [`evidence-system`](https://github.com/Neiland85/evidence-system) | Evidence custody | Append-only custody model, WORM-oriented storage ideas and verifiable exports |
+| [`clarity-asset-governance-hub`](https://github.com/Neiland85/clarity-asset-governance-hub) | Asset governance | Technical evidence, remediation tracking, SHA-256 integrity and review-ready documentation |
+| [`snapshot-runner-railway-demo`](https://github.com/Neiland85/snapshot-runner-railway-demo) | Reproducible validation | Controlled execution, smoke checks and security-oriented reproducibility |
 
----
-
-### 📂 Featured Case: **Idealista (2012–2014)**
-
-A deep-dive into the architecture, interface logic, and backend evolution during a critical phase in one of Europe’s most important real estate platforms.
-
-- 🏛️ [Experience Summary](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/README.md)  
-  Overview of my role in backend + interface architecture, business logic, and REST transition.
-
-- 🔘 [UI Pattern – Favorite Button: Then vs Now](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/button-then-vs-now.md)  
-  Side-by-side comparison of a real 2013 interface vs a 2025 React + Tailwind version.
-
-- 🧱 [Architecture – From Monolith to Modular REST](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/architecture-idealista-transition.md)  
-  Mermaid diagram and explanation of the architectural shift I lived and helped implement.
-
-> 🧠 This case shows how I moved from executing logic to **designing systems**, and why that matters for any architect today.
+Private/NDA work includes deeper portfolio material around critical backend, DDD, evidence vaults, AI-facing governance and integration assurance.
 
 ---
 
-## 📞 Contact
+## Critical systems, without overclaiming
 
-- 📧 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
-- 📱 WhatsApp / Phone: **+34 613 722 441**  
-- 🧪 Gists: [gist.github.com/Neiland85](https://gist.github.com/Neiland85)  
-- 📦 Project repo: [NeuroBank-FastAPI-Toolkit](https://github.com/Neiland85/NeuroBank-FastAPI-Toolkit)
+When I say **critical systems**, I do not mean every system is military, certified or regulated by default.
 
+I mean systems where one broken assumption can create operational, legal, reputational or data-integrity damage.
 
----
+That usually means:
 
-## 🇪🇸 Sobre Mí (Español)
-
-¡Hola! Soy Neiland, arquitecto de software y desarrollador senior con más de 15 años de experiencia en sistemas escalables, automatización DevOps y flujos de trabajo asistidos por IA.
-
-Diseño arquitecturas desde cero con trazabilidad legal, principios de excelencia técnica y mentalidad open source.
-
----
-
-## 👨‍💻 Especialidades:
-
-- 🧱 Arquitectura monorepo para SaaS y microservicios
-- 🤖 Ingeniería de prompts con GitHub Copilot Pro+ en proyectos reales
-- 🚢 Pipelines CI/CD, Kubernetes, observabilidad, infra como código
-- 🔍 Automatización trazable legal (Slack, Hubspot, Zapier, backends propios)
-- ⚙️ MVPs documentados con Node.js, React, Prisma, TypeScript y Python
+- duplicated events must not corrupt state;
+- a decision must be reconstructable;
+- a manual process needs to become traceable;
+- AI must not access internal context without permission boundaries;
+- logs, hashes and events must support later review;
+- the architecture must survive technical scrutiny without a PowerPoint story holding it together.
 
 ---
 
-## 🧬 Filosofía de Trabajo
+## Technical stack
 
-> **Metodología asiática · Ejecución alemana · Picardía española**
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-Node.js-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Transactional%20Core-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Kubernetes-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Observability-Prometheus%20%7C%20Grafana-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+</p>
 
-Fusiono:
-
-- 🧘 Disciplina asiática → precisión, largo plazo, sobriedad técnica  
-- 🛠 Rigor alemán → sistemas estructurados, calidad auditable  
-- 🎭 Picardía española → agilidad creativa, soluciones inteligentes, intuición estratégica
-
----
-
-## 📂 Casos y Demos
-
-- 🧠 [Prompts Copilot para Kubernetes y VS Code](https://gist.github.com/Neiland85/2bd47ad2e4c962a0e61a4cb6e1073ed5)  
-- ⚙️ [VS Code Settings para Monorepo y Copilot Agent](https://gist.github.com/Neiland85/8c87abae66c70fe43d08bf3006bdd541)  
-- 🔁 [Handler legal Zapier → Slack](https://gist.github.com/Neiland85/ea03236ecdfc5636e9706421b85e224b)
+**Backend & architecture:** Java/Spring Boot, Python/FastAPI, TypeScript/Node.js, NestJS, REST APIs, DDD, hexagonal architecture, microservices, event-driven systems.  
+**Data & infrastructure:** PostgreSQL, Redis, Docker, Kubernetes, Linux, CI/CD, GitHub Actions, Terraform/Ansible foundations.  
+**Reliability & governance:** idempotency, audit trails, structured logs, traceability, security review, privacy-aware flows, AI governance controls.
 
 ---
 
-### 📂 Caso destacado: **Idealista (2012–2014)**
+## Review posture
 
-Una inmersión real en la lógica de interfaces, evolución arquitectónica y trabajo backend durante una fase crítica de transformación en una de las plataformas inmobiliarias más influyentes de Europa.
+I prefer small, defensible changes over decorative architecture.
 
-- 🏛️ [Resumen de experiencia](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/README.md)  
-- 🔘 [Comparativa UI – Botón de favoritos](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/button-then-vs-now.md)  
-- 🧱 [Evolución arquitectónica: de monolito a REST modular](https://github.com/Neiland85/Neiland85/blob/main/cases/idealista-backend-devops-2012-2014/architecture-idealista-transition.md)
+```text
+Does it run?
+Can it be explained?
+Can it be reviewed?
+Can the state be reconstructed?
+Does the commit tell the truth?
+Would the diff survive hostile senior review?
+```
 
-> 🧠 Este caso muestra cómo pasé de ejecutar lógica a **diseñar sistemas**, y por qué eso marca la diferencia en cualquier arquitecto moderno.
+If the answer is no, the architecture is not finished.
 
 ---
 
-## 📞 Contacto
+## Current positioning
 
-- 📧 LinkedIn: [linkedin.com/in/neiland85](https://linkedin.com/in/neiland85)  
-- 📱 WhatsApp / Teléfono: **+34 613 722 441**  
-- 🧪 Gists: [gist.github.com/Neiland85](https://gist.github.com/Neiland85)  
-- 📦 Proyecto en curso: [NeuroBank-FastAPI-Toolkit](https://github.com/Neiland85/NeuroBank-FastAPI-Toolkit)
+**Spanish:** Arquitecto de Sistemas Críticos y Backend especializado en trazabilidad operativa, evidencia técnica, seguridad, integración y gobernanza IA.  
+**English:** Critical Systems & Backend Architect focused on operational evidence, traceability, security, integration and AI governance.
+
+---
+
+## Working principle
+
+> **Before claiming, preserve.**  
+> **Before interpreting, trace.**  
+> **Before delivering, make it explainable.**
+
+No se trata de creer.  
+Se trata de poder verificar.
